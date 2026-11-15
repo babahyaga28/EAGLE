@@ -1,0 +1,7 @@
+pillow
+numpy
+opencv-python>=4.8,<5
+reportlab
+# OpenCV 4.x diperlukan untuk deteksi wajah bawaan (Haar). OpenCV 5 tidak menyertakannya;
+# di sana letakkan model YuNet + SFace (ONNX) di folder model.
+# tkinter ikut Python (Windows/macOS). Linux: sudo apt install python3-tk
